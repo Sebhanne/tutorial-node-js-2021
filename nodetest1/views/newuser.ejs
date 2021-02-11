@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <titile>Add User</titile>
+        <link rel="stylesheet" href="/public/stylesheets/style.css" />
+    </head>
+    <body>
+        <h1><%= title %></h1>
+        <form id="formAddUser" name="adduser" method="POST" action="/adduser">
+           <input id="inpustUserName" type="text" placeholder="username" name="username"/>
+           <input id="inputUserEmail" type="text" placeholder="email" name="usermail"/>
+           <button id="btnSubmit" type="submit">Submit</button>
+        </form>
+        
+    </body>
+</html>
